@@ -1,0 +1,128 @@
+body {
+  background-image: url("images/vinyl.jpg");
+  background-repeat: round;
+  background-size: cover;
+  font-size: medium;
+  position: relative;
+}
+
+a { 
+  text-decoration: none;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+/*
+h1 {
+  font: Franklin Gothic Medium;
+  font-size: 55px;
+  font-style: italic;
+  text-align: center;
+  color: rgb(19, 8, 59);
+  padding: 15px;
+}
+*/
+
+nav { 
+  font-family: 'Trebuchet MS';
+  width:100%;
+  background-color: purple;
+  color: #FFFFFF;
+  border-collapse: collapse;
+}
+
+.topnav-title {
+  font-family: 'Courier New'; 
+  font-size: 250%;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 8px;
+}
+
+.nav-sep {
+  overflow: auto; 
+  width: 100%;
+}
+
+/* .topnav-right {
+  float: right;
+} */
+
+.topnav-right {
+  padding: 13px 18px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.topnav-right:hover, td:active  {
+  background-color: #6D0062;
+}
+
+.margin td:hover, td:active {
+  background-color: purple;
+  cursor: none; 
+}
+
+.sidenav {
+  height:83%;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: 0.8s;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  color: white;
+  margin-left: 170px;
+  padding: 0px 10px;
+  width: 50%;
+  background: blue;
+  display:block;
+}
+
+.secondary {
+  color: white;
+  margin-left: 170px;
+  padding: 0px 10px;
+  width: 35%;
+  background: blue;
+  display: block
+}
+
+footer {
+  color: white;
+  margin-left: 170px;
+  padding: 0px 10px;
+}
